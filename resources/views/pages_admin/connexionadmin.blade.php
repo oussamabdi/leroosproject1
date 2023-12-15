@@ -91,7 +91,6 @@
             <button type="submit">Se connecter</button>
         </form>
 
-        <p>Utilisateur par défaut : id456 | Mot de passe par défaut : oussa2</p>
     </div>
 </body>
 </html>
