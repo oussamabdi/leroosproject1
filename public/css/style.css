@@ -1,0 +1,90 @@
+/* Vos styles généraux ici */
+
+.artnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+.titre-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px; /* Ajustez la taille du logo selon vos besoins */
+    margin-right: 10px;
+}
+
+.titre {
+    color: white;
+    margin: 0;
+}
+
+.burger-menu {
+    font-size: 24px;
+    cursor: pointer;
+    display: none; /* Le bouton hamburger sera initialisé comme caché par défaut */
+    color: white;
+}
+
+.lien {
+    list-style: none;
+    display: flex;
+}
+
+.lien li {
+    margin-right: 20px;
+}
+
+.lien a {
+    text-decoration: none;
+    color: white;
+}
+
+.connexion {
+    display: flex;
+    align-items: center;
+}
+
+.bconn {
+    margin-left: 20px;
+    padding: 5px 10px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+/* Media query pour les écrans plus petits (responsive) */
+@media screen and (max-width: 768px) {
+    .lien {
+        display: none; /* Cache la liste de navigation par défaut sur les écrans plus petits */
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+        width: 100%;
+    }
+
+    .lien.show {
+        display: flex; /* Affiche la liste de navigation lorsque la classe show est ajoutée */
+    }
+
+    .lien li {
+        margin: 0;
+        text-align: center;
+    }
+
+    .burger-menu {
+        display: block; /* Affiche le bouton hamburger sur les écrans plus petits */
+    }
+
+    .connexion {
+        margin-top: 10px;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,246 @@
+.sectconnexion , .sectinscription{
+  margin-top: 80px;
+  border: solid 2px rgb(243, 232, 232);
+  height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg3.webp);
+  /* background-color: black; */
+  backdrop-filter: blur(15px);
+  background-size: cover;
+  background-position: center;
+
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}
+
+.wrapper > .btn:hover{
+  background-color: rgb(171, 4, 23) !important;
+}
+.wrapper{
+    width: 470px;
+    background: rgb(0, 0, 0);
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+
+    font-size: 17px;
+    transition: 0.1s;
+
+    box-shadow: 0 0 20px #000000d6 !important;
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    position: relative;
+    top: 50px;
+    left: 35%;
+}
+.wrapper:hover{
+    transform: scale(1.1);
+    transition: .5;
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color: #fff;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .remember-me{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.remember-me label input{
+    accent-color: #fff;
+    margin-left: 3px;
+}
+
+.remember-me a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-me a:hover{
+    text-decoration: underline;
+}
+
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.wrapper .btn:hover{
+  background-color: white !important;
+  color: black;
+}
+.wrapper .lien-sinscrire {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.lien-sinscrire p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.lien-sinscrire p a:hover{
+    text-decoration: underline;
+}
+
+
+
+/* PARTIE INSCRIPTION */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+
+
+
+.wrapper{
+  width: 470px;
+  background: black;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  color: #fff;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+.wrapper h1{
+  font-size: 36px;
+  text-align: center;
+}
+
+.wrapper .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0px;
+}
+
+.input-box input{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+  color: #fff;
+}
+
+.input-box i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+
+
+.remember-me label input{
+  accent-color: #fff;
+  margin-left: 3px;
+}
+
+.remember-me a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.remember-me a:hover{
+  text-decoration: underline;
+}
+
+.wrapper .btn{
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+
+.wrapper .lien-sinscrire {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+
+.lien-sinscrire p a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.lien-sinscrire p a:hover{
+  text-decoration: underline;
+}
+
+
+
