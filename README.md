@@ -17,7 +17,7 @@ Nous remercions nos partenaires pour leur soutien au développement de notre pro
 - **Oussama Abdi Ali**
 - **Omar Mahamoud Omar**
 - **Souheib Ahmed Houssein**
-- **Radwan Hassan Assoweb**
+- **Radwan Hassan Assowe**
 
 ## Contribution
 
